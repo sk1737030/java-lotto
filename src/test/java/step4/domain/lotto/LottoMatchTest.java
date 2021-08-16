@@ -1,4 +1,4 @@
-package step4;
+package step4.domain.lotto;
 
 import org.junit.jupiter.api.Test;
 import step4.domain.lotto.LottoRank;

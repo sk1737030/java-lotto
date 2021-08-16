@@ -37,7 +37,7 @@ public class LottoGame {
         WinOfLotto winOfLotto = new WinOfLotto(winOfLottoNumbers, lottoBonusNumber);
 
         LottoMatch lottoMatch = user.getLottos().match(winOfLotto);
-        Profit profit = lottoMatch.calcProfit(user.getLottos().getLottoCount());
+        Profit profit = lottoMatch.calcProfit(user.getLottos().size());
 
         ResultView.printLottoStatistics(lottoMatch, profit);
     }

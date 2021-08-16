@@ -1,4 +1,4 @@
-package step4.lotto;
+package step4.domain.lotto;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static step4.LottoNumbersFactory.buildLottoNumbers;
+import static step4.domain.lotto.LottoNumbersFactory.buildLottoNumbers;
 
 class LottosTest {
 

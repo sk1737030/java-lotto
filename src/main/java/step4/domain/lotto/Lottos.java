@@ -19,8 +19,9 @@ public class Lottos {
     }
 
     public Lottos(List<Lotto> manualLotto, List<Lotto> randomLotto) {
-        manualLotto.addAll(randomLotto);
-        this.lottos = new ArrayList<>(manualLotto);
+        List<Lotto> lottos = new ArrayList<>(manualLotto);
+        lottos.addAll(randomLotto);
+        this.lottos = lottos;
     }
 
     public LottoMatch match(WinOfLotto winOfLotto) {
@@ -37,7 +38,7 @@ public class Lottos {
         return new LottoMatch(lottoMap);
     }
 
-    public int getLottoCount() {
+    public int size() {
         return lottos.size();
     }
 

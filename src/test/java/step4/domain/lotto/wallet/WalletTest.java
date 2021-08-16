@@ -1,4 +1,4 @@
-package step4;
+package step4.domain.lotto.wallet;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

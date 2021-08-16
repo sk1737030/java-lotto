@@ -1,9 +1,7 @@
-package step4;
+package step4.domain.lotto;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import step4.domain.lotto.Lotto;
-import step4.domain.lotto.LottoNumber;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
